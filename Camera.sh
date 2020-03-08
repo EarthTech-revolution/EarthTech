@@ -1,5 +1,5 @@
 #!/bin/sh
-host="http://81.82.201.132/"
+host="http://X.X.X.X/"
 cmd1="timeout 5 zmcontrol.pl"
 cmd2="--command=reset"
 cmd3="|on+150|200|Automatique|Record"
