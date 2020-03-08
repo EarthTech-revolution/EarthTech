@@ -2,8 +2,8 @@
 host="http://81.82.201.132/"
 cmd1="timeout 5 zmcontrol.pl"
 cmd2="--command=reset"
-cmd3="|on+150|200|Manual|Record"
-cmd4="|off+10|0|Manual|Stopped"
+cmd3="|on+150|200|Automatique|Record"
+cmd4="|off+10|0|Automatique|Stopped"
 
 case "$1" in
 	'reboot')
