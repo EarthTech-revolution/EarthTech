@@ -95,7 +95,7 @@ case "$1" in
 	;;
 	*)
 		echo "Usage: $0 {reboot|rebootid|record|recordid|stoprecord|stoprecordid|info}"
-		exit 1
+		exit 0
 	;;
 esac
 
